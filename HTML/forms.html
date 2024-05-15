@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <!-- HTML Form -->
+    <form action="submit_page.php" method="post">
+      <!-- Usage of form elements: input, text area, select, button -->
+      <label for="firstname">First Name: </label>
+      <input type="text" id="firstname" name="firstname" required />
+      <br />
+      <br />
+      <label for="age">Age: </label>
+      <input type="number" id="age" name="age" required />
+      <br />
+      <br />
+      <label for="email">Email: </label>
+      <input type="email" id="email" name="email" required />
+      <br />
+      <br />
+      <label for="message">Message: </label>
+      <textarea id="message" rows="4" cols="50"></textarea>
+      <br />
+      <br />
+      <label for="gender">Gender</label>
+      <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+      </select>
+      <br />
+      <br />
+
+      <!-- Radio buttons and checkboxes -> provide options for users to make selections -->
+      <input type="radio" id="option1" name="options" value="option1" />
+      <label for="option1">Option 1</label>
+      <input type="radio" id="option2" name="options" value="option2" />
+      <label for="option2">Option 2</label>
+      <input type="radio" id="option3" name="options" value="option3" />
+      <label for="option3">Option 3</label>
+      <input type="radio" id="option4" name="options" value="option4" />
+      <label for="option4">Option 4</label>
+      <br />
+      <br />
+      <input type="checkbox" id="optionA" name="choices" value="optionA" />
+      <label for="optionA">Option A</label>
+      <input type="checkbox" id="optionB" name="choices" value="optionB" />
+      <label for="optionB">Option B</label>
+      <br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
