@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+.background{
+    /* background-color: blue; */
+    /* background: rgb(36, 3, 0); */
+    /* background: linear-gradient(90deg, rgba(36, 3, 0, 1) 0%, rgba(121, 58, 9, 1) 35%, rgba(255, 88, 0, 1) 100%); */
+    /* background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%); */
+    background-image: url("https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg");
+    /* background-image: url("bg.jpg"); */
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.font-example{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: "Jacquard 12", system-ui;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.line-spacing-example{
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.alignment-example{
+    text-align: center;
+}
+
+.decoration-example{
+    text-decoration: line-through;
+}
+
+.shadow-example{
+    text-shadow: 2px 2px 4px red;
+    /* 1st value - x-axis
+       2nd value - y-axis
+       3rd value - blur-radius
+       4th value - color
+    */
+}
+
+.image-example{
+    display: block;
+    margin: 0 auto;
+}
